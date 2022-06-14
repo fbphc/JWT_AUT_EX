@@ -1,3 +1,4 @@
+import jwt from "jsonwebtoken"
 export const postLogin = (req, res) => {
     const username = req.body.username;
     const user = {
