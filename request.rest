@@ -1,0 +1,25 @@
+GET http://localhost:3001/main
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiTGV0dGVyR2luYSIsImlhdCI6MTY1NTIxNzkwMn0.ydnbvyFzQBpSvrmfINAHPwNlL0653XRCkQ6i88XgLyg
+
+
+###
+
+POST http://localhost:3001/login
+Content-Type: application/json
+
+{
+    "username": "LetterGina"
+}
+
+
+###
+
+
+POST http://localhost:3001/newFlavour
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiTGV0dGVyR2luYSIsImlhdCI6MTY1NTIxNzkwMn0.ydnbvyFzQBpSvrmfINAHPwNlL0653XRCkQ6i88XgLyg
+
+{
+    "username" : "LetterGina",
+    "newFlavour" : "D-Tea"
+}
